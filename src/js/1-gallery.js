@@ -87,7 +87,7 @@ import SimpleLightbox from 'simplelightbox';
 import 'simplelightbox/dist/simple-lightbox.min.css';
 
 const newLightBox = new SimpleLightbox(`.gallery a`, {
-  signsData: 'alt',
-  signPosition: 'bottom',
-  signDelay: 250,
+  captionsData: 'alt',
+  captionPosition: 'bottom',
+  captionDelay: 250,
 });
